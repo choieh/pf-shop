@@ -1,0 +1,34 @@
+@import "reset";
+
+body {
+    font-family: Pretendard, sans-serif;
+    line-height: 1.5;
+    color: #222;
+    background: #fff;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    &:focus {
+        left: 1rem;
+        top: 1rem;
+        background: #000;
+        color: #fff;
+        padding: 0.5rem 1rem;
+    }
+}
+
+:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 3px;
+}
+
+.product {
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 300px));
+        gap: 1rem;
+        justify-content: center;
+    }
+}

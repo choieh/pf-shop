@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "상품 1",
+    "price": 10000,
+    "image": "https://picsum.photos/300/300?random=1"
+  },
+  {
+    "id": 2,
+    "name": "상품 2",
+    "price": 20000,
+    "image": "https://picsum.photos/300/300?random=2"
+  },
+  {
+    "id": 3,
+    "name": "상품 3",
+    "price": 30000,
+    "image": "https://picsum.photos/300/300?random=3"
+  },
+  {
+    "id": 4,
+    "name": "상품 4",
+    "price": 40000,
+    "image": "https://picsum.photos/300/300?random=4"
+  },
+  {
+    "id": 5,
+    "name": "상품 5",
+    "price": 15000,
+    "image": "https://picsum.photos/300/300?random=5"
+  },
+  {
+    "id": 6,
+    "name": "상품 6",
+    "price": 25000,
+    "image": "https://picsum.photos/300/300?random=6"
+  },
+  {
+    "id": 7,
+    "name": "상품 7",
+    "price": 35000,
+    "image": "https://picsum.photos/300/300?random=7"
+  },
+  {
+    "id": 8,
+    "name": "상품 8",
+    "price": 45000,
+    "image": "https://picsum.photos/300/300?random=8"
+  }
+]
+
