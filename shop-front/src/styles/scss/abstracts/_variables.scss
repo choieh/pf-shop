@@ -1,0 +1,8 @@
+// fonts
+$font-pretendard: "Pretendard Variable", ui-sans-serif, system-ui, sans-serif;
+$font-notosans: "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+
+$font-families: (
+    "font-title": $font-pretendard,
+    "font-body": $font-notosans,
+);

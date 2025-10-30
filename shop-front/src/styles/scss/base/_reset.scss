@@ -1,0 +1,44 @@
+@use "../abstracts/index" as *;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+img { max-width: 100%; height: auto; display: block; }
+ul, ol { list-style: none; }
+a { text-decoration: none; color: inherit; }
+button { background: none; border: 0; cursor: pointer; font: inherit; }
+
+body {
+    @include font-family("font-body");
+    line-height: 1.5;
+    color: #222;
+    background: #fff;
+}
+
+:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 3px;
+}
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    &:focus {
+        left: 1rem;
+        top: 1rem;
+        background: #000;
+        color: #fff;
+        padding: 0.5rem 1rem;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(50%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
